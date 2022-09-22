@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercice12 {
 
     public static void main(String[] args) {
-        int x,y;
+        int x, y;
 
         Scanner input= new Scanner(System.in);
         System.out.println("Write a number:");
@@ -11,7 +11,7 @@ public class Exercice12 {
         System.out.println("Write a other number:");
         y = input.nextInt();
 
-        if (x>=y) {
+        if (x >= y) {
             System.out.println("The biggest number is: " + x);
         } else {
             System.out.println("The biggest number is: " + y);
